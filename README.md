@@ -3,7 +3,7 @@
 </h4>
 <h2 align="center">
   Overview of ConCasRTE
-  <img align="center"  src="./ConCasRTE.png" alt="Model Architecture" height="200">
+  <img align="center"  src="./ConCasRTE.png" alt="Model Architecture" height="800">
 </h2>
 
 ## Requirements
