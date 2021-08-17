@@ -1,10 +1,5 @@
-<h1 align="center">ConCasRTE</h1>
-<h4 align="center">Source codes for our CIKM 2021 paper: A Conditional Cascade Model for Relational Triple Extraction.
-</h4>
-<h2 align="center">
-  Overview of ConCasRTE
-  <img align="center"  src="./ConCasRTE.png" alt="Model Architecture" height="800">
-</h2>
+
+## CIKM 2021: A Conditional Cascade Model for Relational Triple Extraction.
 
 ## Requirements
 The main requirements are:
