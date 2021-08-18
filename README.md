@@ -8,6 +8,10 @@ The main requirements are:
 - transformers == 2.8.0
 
 ## Usage
+* **Get pre-trained BERT model**
+
+  Download [BERT-BASE-CASED](https://huggingface.co/bert-base-cased) and put it under `./pretrained`.
+
 * **Train and select the model**
 ```
 python run.py --dataset=NYT   --num_train_epochs=100 --batch_size=18 --train
