@@ -1,4 +1,3 @@
-
 ## CIKM 2021: A Conditional Cascade Model for Relational Triple Extraction.
 
 ## Requirements
@@ -9,14 +8,28 @@ The main requirements are:
 - transformers == 2.8.0
 
 ## Usage
-1. **Train and select the model**
+* **Train and select the model**
+```
+python run.py --dataset=NYT   --num_train_epochs=100 --batch_size=18 --train
 
-python run.py --dataset=NYT  --conf_value=0.1 --train
+python run.py --dataset=WebNLG  --num_train_epochs=50 --batch_size=6  --train
 
-python run.py --dataset=WebNLG  --conf_value=0.3 --train
+python run.py --dataset=NYT_simple  --num_train_epochs=100  --batch_size=18 --train
 
-2. **Evaluate on the test set**
+python run.py --dataset=WebNLG_simple --num_train_epochs=50 --batch_size=6 --train
+```
 
+* **Evaluate on the test set**
+
+```
 python run.py --dataset NYT
 
 python run.py --dataset WebNLG
+
+python run.py --dataset NYT_simple
+
+python run.py --dataset WebNLG_simple
+```
+
+### Acknowledgement
+Parts of our codes come from [bert4keras](https://github.com/bojone/bert4keras).
