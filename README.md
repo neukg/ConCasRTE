@@ -12,7 +12,7 @@ The main requirements are:
 
   Download [BERT-BASE-CASED](https://huggingface.co/bert-base-cased) and put it under `./pretrained`.
 
-* **Train and select the model**
+* **Train and select the dataset**
 ```
 python run.py --dataset=NYT   --num_train_epochs=100 --batch_size=18 --train
 
